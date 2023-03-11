@@ -1,0 +1,17 @@
+.MainVideoDashBoard {
+  flex: 0.8;
+  /* border: 1px solid black; */
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  padding-bottom: 0;
+}
+
+.MainVideoDashBoard > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.MainVideoDashBoard_videos {
+  display: flex;
+  flex-wrap: wrap;
+}

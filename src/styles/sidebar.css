@@ -1,0 +1,19 @@
+.sidebar{
+  flex: 0.2;
+  transition: all 0.3s ease 0s;
+ }
+
+ .sidebar > hr{
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ .sidebar.closed {
+  flex: 0 0 55px;
+  overflow: hidden;
+ 
+}
+

@@ -1,0 +1,41 @@
+.vid-card{
+  text-align: left;
+  margin: 0 0 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vid-card ~ .vid-card {
+  margin-top: 30px;
+}
+
+img{
+  /* width: 25%; */
+  text-align: left;
+}
+.title{
+  margin: 5px 0px 0px 10px ;
+  font-family: "Roboto","Arial",sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  /* white-space: break-spaces; */
+  font-size: 18px;
+}
+.sub-title{
+  font-family: "Roboto","Arial",sans-serif;   
+  font-weight: normal;
+  color: #837b7b;
+  font-size: 14px;
+}
+
+.sip-menu-icon{
+  text-align: right;
+  margin: -120px 0px 0px 40px;
+  width: 20px;
+}
+
+.text{
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: normal;
+}
