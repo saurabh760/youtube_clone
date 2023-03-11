@@ -46,11 +46,11 @@ const
     }
 
     const displayIconWithInput = () => {
-      if (isLeftIcon && isLeftIcon == true) {
+      if (isLeftIcon && isLeftIcon === true) {
         return 'with-icon left'
-      } else if (isRightIcon && isRightIcon == true) {
+      } else if (isRightIcon && isRightIcon === true) {
         return 'with-icon right'
-      } else if (isBothIcon && isBothIcon == true) {
+      } else if (isBothIcon && isBothIcon === true) {
         return 'with-icon left' + ' ' + 'with-icon right'
       } else {
         return ''
