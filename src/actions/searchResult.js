@@ -11,7 +11,12 @@ const getSearchResult = (body) => (dispatch) => {
       });
     }
     return res;
+  })
+  .catch((e) => {
+    alert('Something wents wrong!');
+
   });
+  
 };
 
 export { getSearchResult };
