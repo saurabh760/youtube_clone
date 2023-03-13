@@ -1,6 +1,6 @@
 import client from '../setup/client';
 
-export const getSearchResultsResults = (body) => {
+export const getSearchResults = (body) => {
   return client.get('/search', {
     params: {
       q: body,

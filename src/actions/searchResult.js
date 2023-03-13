@@ -1,4 +1,4 @@
-import { getSearchResults } from '../apis/searchApi';
+import { getSearchResults } from '../apis/searchApi.js';
 
 export const SEARCH_RESULT = 'SEARCH_RESULT';
 
